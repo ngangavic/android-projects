@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>-->
+    <item android:title="Results">
+        <menu>
+            <item
+                android:id="@+id/nav_form1"
+                android:icon="@drawable/ic_vector_book"
+                android:title="Form 1" />
+            <item
+                android:id="@+id/nav_form2"
+                android:icon="@drawable/ic_vector_book"
+                android:title="Form 2" />
+            <item
+                android:id="@+id/nav_form3"
+                android:icon="@drawable/ic_vector_book"
+                android:title="Form 3" />
+            <item
+                android:id="@+id/nav_form4"
+                android:icon="@drawable/ic_vector_book"
+                android:title="Form 4" />
+
+        </menu>
+
+    </item>
+
+    <item android:title="Fees">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_vector_payment"
+                android:title="Payment" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Balance" />
+            <item
+                android:id="@+id/nav_send2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Enquiry" />
+        </menu>
+    </item>
+
+</menu>

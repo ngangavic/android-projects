@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CRUD</string>
+    <!-- defining the array array for for our spinner -->
+    <array name="teams">
+        <item>Avengers</item>
+        <item>Justice League</item>
+        <item>X-Men</item>
+        <item>Fantastic Four</item>
+    </array>
+</resources>

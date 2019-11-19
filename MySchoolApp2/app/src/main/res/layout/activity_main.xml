@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_Layout"
+    tools:context="com.example.ngangavictor.myschoolapp2.MainActivity">
+
+    <!--<LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/activity_controller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+
+    </LinearLayout>-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+    <ExpandableListView
+        android:id="@+id/navList"
+        android:layout_gravity="left|start"
+        android:background="@android:color/white"
+        android:divider="@android:color/black"
+        android:dividerHeight="0.5dp"
+        android:indicatorLeft="@dimen/activity_horizontal_margin"
+        android:layout_width="235dp"
+        android:layout_height="match_parent"
+        ></ExpandableListView>
+</android.support.v4.widget.DrawerLayout>

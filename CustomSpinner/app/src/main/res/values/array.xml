@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items">
+        <item>Select item</item>
+        <item>Item no 1</item>
+        <item>Item no 2</item>
+        <item>Item no 3</item>
+        <item>Item no 4</item>
+        <item>Item no 5</item>
+    </string-array>
+</resources>

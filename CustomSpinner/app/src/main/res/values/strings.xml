@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Custom Spinner</string>
+
+    <string name="meta_position">meta_position</string>
+    <string name="meta_title">meta_title</string>
+
+</resources>
